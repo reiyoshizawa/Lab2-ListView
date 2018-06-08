@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favorite_movies"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:id="@+id/grid_movies"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:useDefaultMargins="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:tag="the_godfather"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/the_godfather"
+            />
+        <ImageButton
+            android:tag="pulp_fiction"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/pulp_fiction"
+            />
+
+        <ImageButton
+            android:tag="forrest_gump"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/forrest_gump"
+            />
+        <ImageButton
+            android:tag="catch_me_if_you_can"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/catch_me_if_you_can"
+            />
+        <ImageButton
+            android:tag="the_hangover"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/the_hangover"
+            />
+        <ImageButton
+            android:tag="titanic"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/titanic"
+            />
+        <ImageButton
+            android:tag="good_will_hunting"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/good_will_hunting"
+            />
+        <ImageButton
+            android:tag="the_shawshank_redemption"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/the_shawshank_redemption"
+            />
+        <ImageButton
+            android:tag="fight_club"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/fight_club"
+            />
+
+
+    </GridLayout>
+
+</LinearLayout>

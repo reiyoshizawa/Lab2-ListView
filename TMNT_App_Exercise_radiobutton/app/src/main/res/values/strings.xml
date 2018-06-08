@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TMNT_App_Exercise_radiobutton</string>
+
+    <string name="leo">Leo</string>
+    <string name="raf">Raf</string>
+    <string name="mich">Mich</string>
+    <string name="don">Don</string>
+
+    <string name="chooseLeo">You choose Leo</string>
+    <string name="chooseRaf">You choose Raf</string>
+    <string name="chooseMich">You choose Mich</string>
+    <string name="chooseDon">You choose Don</string>
+
+</resources>

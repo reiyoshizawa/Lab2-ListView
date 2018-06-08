@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TMNT app exercise</string>
+
+    <string name="chooseLeo">You choose Leo</string>
+    <string name="chooseRaf">You choose Raf</string>
+    <string name="chooseMich">You choose Mich</string>
+    <string name="chooseDon">You choose Don</string>
+
+    <string-array name="tmnt">
+        <item>Leo</item>
+        <item>Raf</item>
+        <item>Mich</item>
+        <item>Don</item>
+    </string-array>
+
+</resources>

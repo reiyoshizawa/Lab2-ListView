@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/leo"
+            android:text="@string/leo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioClick"
+            tools:ignore="OnClick" />
+
+        <RadioButton
+            android:id="@+id/raf"
+            android:text="@string/raf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioClick"
+            tools:ignore="OnClick" />
+
+        <RadioButton
+            android:id="@+id/mich"
+            android:text="@string/mich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioClick"
+            tools:ignore="OnClick" />
+
+        <RadioButton
+            android:id="@+id/don"
+            android:text="@string/don"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioClick"
+            tools:ignore="OnClick" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tmnt_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/chooseLeo"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/tmnt_img"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/leonardo"/>
+
+</LinearLayout>
